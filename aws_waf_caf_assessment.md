@@ -81,7 +81,7 @@ This addresses day-to-day environment management. Reliance on manual processes m
 
 ## 4. Task 4: Design an Improved Architecture
 
-The revised architecture addresses all five WAF pillars and aligns with CAF automation and security best practices.
+![Architecture Diagram](./diagram.png)
 
 ### Key Components
 
@@ -90,8 +90,6 @@ The revised architecture addresses all five WAF pillars and aligns with CAF auto
 - **Database Tier (Reliability & Security):** The database is migrated to **Amazon RDS Multi-AZ** (e.g., PostgreSQL). This provides automatic failover (Reliability). Data is encrypted using **AWS KMS** (Security). The RDS Security Group only permits ingress traffic from the Web Tier.
 - **Deployment (Operational Excellence):** The entire infrastructure (VPC, ALB, ASG, RDS) is provisioned via **AWS CloudFormation** (Infrastructure as Code). A **CodePipeline** orchestrates automated deployment.
 - **Data Protection:** Automated backups are configured on RDS.
-
-This design is highly available, scales elastically, and uses managed services to reduce operational overhead.
 
 ---
 
