@@ -1,5 +1,24 @@
 # AWS Solution Using the Well-Architected and Cloud Adoption Framework (WAF)
 
+<!--toc:start-->
+
+- [AWS Solution Using the Well-Architected and Cloud Adoption Framework (WAF)](#aws-solution-using-the-well-architected-and-cloud-adoption-framework-waf)
+  - [Review of Existing Architecture](#review-of-existing-architecture)
+    - [Components of the workload](#components-of-the-workload)
+  - [Potential Risks and Weaknesses](#potential-risks-and-weaknesses)
+  - [2. Task 2: AWS Well-Architected Framework (WAF) Assessment](#2-task-2-aws-well-architected-framework-waf-assessment)
+  - [3. Task 3: AWS Cloud Adoption Framework (CAF) Readiness Summary](#3-task-3-aws-cloud-adoption-framework-caf-readiness-summary)
+    - [Business Perspective](#business-perspective)
+    - [People Perspective](#people-perspective)
+    - [Governance Perspective](#governance-perspective)
+    - [Platform Perspective](#platform-perspective)
+    - [Security Perspective](#security-perspective)
+    - [Operations Perspective](#operations-perspective)
+  - [4. Task 4: Design an Improved Architecture](#4-task-4-design-an-improved-architecture)
+    - [Key Components](#key-components)
+  - [5. Brief Reflection](#5-brief-reflection)
+  <!--toc:end-->
+
 ## Review of Existing Architecture
 
 ---
